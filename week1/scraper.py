@@ -16,7 +16,6 @@ characters = [
 directory = "datasets/"
 main_website = "https://myanimelist.net/character/pics"
 
-character = characters[0]
 for character in characters:
     website = main_website.split("/")
     website[-3:-1] += character
@@ -39,5 +38,5 @@ for character in characters:
             with open(img_path, 'wb') as img_file:
                 img_file.write(image_saved.content)
             print(f"Successfully downloaded {img_desc}")
-            time.sleep(5) # wait 5 seconds
-        time.sleep(10)
+            time.sleep(5) # wait 5 seconds before downloading another image
+    time.sleep(10) # wait 10 seconds before switching to another character
