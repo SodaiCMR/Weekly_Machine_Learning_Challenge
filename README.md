@@ -22,14 +22,15 @@ Build a computer vision model capable of identifying anime characters from image
 
 1. **Web Scraping**:  
    Create my own dataset of anime character images using a web scraper. This involves:
-   - Identifying reliable sources (e.g., anime-character wikis, fan pages).
+   - Grabbing characters images from https://myanimelist.net/character.php
+   - Resize every image to 300*300px
 
 2. **Image Preprocessing**:
    - Resize, normalize, and augment images.
    - Organize into labeled directories for supervised learning.
 
 3. **Model Building**:
-   - Train a CNN (e.g., using PyTorch, TensorFlow, or Keras).
+   - Train a CNN (using TensorFlow, or Keras).
    - Evaluate using accuracy, precision, recall, and F1-score.
 
 4. **Inference Pipeline**:
