@@ -38,6 +38,6 @@ for character in characters:
             img_path = os.path.join(character_directory, img_desc)
             with open(img_path, 'wb') as img_file:
                 img_file.write(image_saved.content)
-            print(f"Succesfully downloaded {img_desc}")
+            print(f"Successfully downloaded {img_desc}")
             time.sleep(5) # wait 5 seconds
         time.sleep(10)
