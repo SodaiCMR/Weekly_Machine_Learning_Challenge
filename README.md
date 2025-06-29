@@ -31,7 +31,7 @@ Build a computer vision model capable of identifying different images (i specifi
    - Train a CNN (using TensorFlow, Keras...).
    - Evaluate using accuracy.
 
-More details in week1/readme.md
+> 📌 **More details in [`week1/readme.md`](week1/readme.md)**
 ---
 
 
