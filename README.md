@@ -12,29 +12,24 @@ Projects will range from computer vision and natural language processing to tabu
 
 ---
 
-## 📦 Week 1: Anime Character Image Classifier 🎴
+## 📦 Week 1: Image Classifier 🎴
 
 ### 🧩 Objective
 
-Build a computer vision model capable of identifying anime characters from images.
+Build a computer vision model capable of identifying different images (i specifically used anime characters but you are free to use any kind of images).
 
 ### 🛠️ Steps Overview
 
 1. **Web Scraping**:  
-   Create my own dataset of anime character images using a web scraper. This involves:
-   - Grabbing characters images from https://myanimelist.net/character.php
-   - Resize every image to 300*300px
+   Created my own dataset of anime character images using a web scraper from https://myanimelist.net/character.php website.
 
 2. **Image Preprocessing**:
    - Resize, normalize, and augment images.
    - Organize into labeled directories for supervised learning.
 
 3. **Model Building**:
-   - Train a CNN (using TensorFlow, or Keras).
-   - Evaluate using accuracy, precision, recall, and F1-score.
-
-4. **Inference Pipeline**:
-   - Build a simple script or interface to input an image and return predicted character.
+   - Train a CNN (using TensorFlow, Keras...).
+   - Evaluate using accuracy.
 
 ---
 
