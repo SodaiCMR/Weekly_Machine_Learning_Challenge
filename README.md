@@ -24,7 +24,7 @@ Build a computer vision model capable of identifying different images (i specifi
    Created my own dataset of anime character images using a web scraper from https://myanimelist.net/character.php website.
 
 2. **Image Preprocessing**:
-   - Resize, normalize, and augment images.
+   - Resize, normalize images.
    - Organize into labeled directories for supervised learning.
 
 3. **Model Building**:
