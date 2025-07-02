@@ -33,5 +33,34 @@ Build a computer vision model capable of identifying different images (i specifi
 
 > 📌 **More details in [`week1/readme.md`](week1/readme.md)**
 ---
+## 📦 Week 2: Intent-Based AI Chat 🧠💬
 
+### 🧩 Objective
 
+Design and implement an **AI chatbot** capable of understanding user inputs and responding based on **predicted intent**. This challenge introduces basic NLP techniques and prepares the ground for more advanced conversational agents.
+
+### 🛠️ Steps Overview
+
+1. **Dataset Preparation**:  
+   - Create or use a small intent-classification dataset (e.g., JSON with tags like `greeting`, `goodbye`, `help`, `thanks`, etc.).
+   - Each intent includes example user phrases and associated responses.
+
+2. **Text Preprocessing**:
+   - Tokenization, stemming/lemmatization.
+   - Transform text into numerical representations (Bag-of-Words, TF-IDF, or embeddings).
+
+3. **Model Building**:
+   - Train a classifier (e.g., a simple feedforward neural network or LSTM) to map user inputs to intent labels.
+   - Evaluate using accuracy or F1-score.
+
+4. **Chatbot Interface**:
+   - Build a simple CLI or GUI (e.g., Streamlit or Tkinter) that:
+     - Accepts user input.
+     - Predicts intent.
+     - Replies with a predefined response for that intent.
+
+5. **(Optional) Enhancements**:
+   - Add confidence threshold and fallback responses.
+   - Add contextual memory or chaining multiple intents.
+
+> 📌 **More details in [`week2/readme.md`](week2/readme.md)**
