@@ -58,9 +58,5 @@ Design and implement an **AI chatbot** capable of understanding user inputs and 
      - Accepts user input.
      - Predicts intent.
      - Replies with a predefined response for that intent.
-
-5. **(Optional) Enhancements**:
-   - Add confidence threshold and fallback responses.
-   - Add contextual memory or chaining multiple intents.
-
+       
 > 📌 **More details in [`week2/readme.md`](week2/readme.md)**
